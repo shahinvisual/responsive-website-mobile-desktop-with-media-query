@@ -1,0 +1,106 @@
+/* Inter Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared Style */
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    background: rgb(230, 83, 60);
+    border-radius: 42px;
+    padding: 16px 42px ;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+/* header style  */
+.bg-color-header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-color: black;
+}
+/* nav sction style */
+.navbar{
+    justify-content: space-around;
+    align-items: center;
+}
+.brand{
+    font-weight: 800;
+    font-size: 2.2rem;
+    color: #E6533C;
+    font-style: italic;
+}
+.nav-links{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 4px ;
+    width: 457px;
+    height: 38px;
+    gap: 47px;
+    justify-content: space-between;
+    align-items: center;
+    
+} 
+.nav-item{
+    list-style: none;
+    align-items: center;
+}   
+.nav-link{ 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white; 
+}
+.nav-btn{
+    background-color: #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    border: none;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+/* banner style */
+.banner{
+    display: flex;
+}
+.banner-title{
+    color: white;
+    font-size: 78px;
+    font-weight: 900;
+}
+.banner-description{
+    color: white;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.download-btn{
+    background:none ;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 42px 16px 42px ;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
