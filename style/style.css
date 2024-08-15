@@ -243,3 +243,36 @@ margin: 0;
     justify-content: center;
     align-items: center;
 }
+
+
+
+/* advertise-card-style */
+.advertise{
+    display: flex;
+    gap: 165px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    width: 1160px;
+    height: 371px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.advertise-card{
+    text-align: left;
+}
+.advertise-title{
+    text-align: left;
+}
+.advertise-btn{
+    margin-top: 34px;
+}
+.advertise-img{
+    width: 400px;
+    height: 312px;
+    border-radius: 18px;
+}
+.advertise-description{
+    text-align: left;
+}
