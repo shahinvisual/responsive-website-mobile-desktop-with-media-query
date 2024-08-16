@@ -246,19 +246,25 @@ margin: 0;
 
 
 
+
+
+
+
+
 /* advertise-card-style */
 .advertise{
-    display: flex;
-    gap: 165px;
-    justify-content: space-around;
-    align-items: center;
+   margin-top: 100px ;
+}
+ .advertise-container{
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    width: 1160px;
-    height: 371px;
-    margin: 0 auto;
-    margin-top: 100px;
-}
+   
+ }
+ .advertise-flex{
+    display: flex;
+    gap:279px;
+    padding: 30px;
+ }
 .advertise-card{
     text-align: left;
 }
@@ -276,3 +282,118 @@ margin: 0;
 .advertise-description{
     text-align: left;
 }
+
+
+
+
+
+
+/* team section style */
+#team-part{
+    margin: 80px 0 ;
+}
+.part-container{
+    max-width:1100px ;
+    margin: 0 auto;
+    
+  
+}
+.team-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background: rgba(87, 87, 87, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+
+}
+.team-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+} 
+.team-img{
+    height: 326px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section style */
+.margin-top{
+    padding: 66px 0 35px 0;
+    background: rgb(66, 66, 66);
+}
+.sub-container{
+    display: flex;
+    
+    /* gap: 359px; */
+    
+    /* 
+    justify-content:center;
+    align-items: center; */
+}
+.footer-title-descriptin, .list-section{
+    text-align: left;
+    width: 50%;
+}
+.footer-brand{
+    font-size: 70px;
+    color: rgb(230, 83, 60);
+    text-align: left;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0;
+}
+.footer-description{
+    text-align: left;
+}
+
+ .list-section{
+    display: flex;
+    gap: 198px; 
+} 
+.list-left{
+    width: 50%;
+}
+.list-title{
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+/* margin-bottom: 20px; */
+margin: 0 0 20px 0;
+}
+.ul-item{
+    padding: 0;
+    list-style: none;
+}
+.li-item{
+    margin-bottom: 15px;
+}
+.li-item a{
+color: rgba(255, 255, 255, 0.5);
+font-size: 23px;
+font-weight: 400;
+text-decoration: none;
+}
+.margin-none{
+margin-bottom: 0;
+}
+.line{
+    border-top: 1px solid rgb(44, 43, 43);
+    margin: 30px 0  0 ;
+}
+.all-right{
+    text-align: center;
+}
+
