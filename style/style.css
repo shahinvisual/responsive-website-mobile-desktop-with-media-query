@@ -286,6 +286,54 @@ margin: 0;
 
 
 
+/* form and list item container */
+ .bmi-form{
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+ }
+ .table-title{
+    background: white;
+    max-width: 500px;
+ }
+ .title-heading{
+    text-align: center;
+ }
+ table{
+    border-collapse: collapse;
+    margin: 0 auto;
+ }
+ td, th{
+    border: 1px solid rgb(75, 74, 74);
+    padding: 11px 70px 14px 18px;
+    text-align: left;
+ }
+
+/* form-section-style */
+ .form-section{
+    max-width: 550px;
+    background: red;
+ }
+ .form{
+    
+ }
+ .first-row{
+    display: flex;
+    max-width: 550px;
+  
+ }
+ .input-1, .input-2{
+    width: 50%;
+ }
+.input-1 input, .input-2 input
+{
+    width: 100%;
+}
+.select .inpu-box {
+    width: 100%;
+}
+
+
 
 
 /* team section style */
@@ -315,6 +363,9 @@ margin: 0;
 .team-img{
     height: 326px;
 
+}
+.team-title-description{
+    margin-bottom: 50px;
 }
 
 
