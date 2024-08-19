@@ -85,10 +85,18 @@
             </div>
            </div>
         </section>
+        <section class="part-container">
+            <div class=" bmi-cal-center">
+                <div class="bmi-ti-des">
+                    <h3 class="main-title bmi-ti-des-text">BMI Calculator</h3>
+                    <p class="shared-description bmi-ti-des-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                </div>
+            </div>
+        </section>
         <section class="form-list-container">
             <div class="bmi-form part-container">
                 <div class="table-title">
-                    <h4 class="title-heading">BMI Calculator Chart</h4>
+                    <h4 class="title-heading list-title">BMI Calculator Chart</h4>
                     <table>
                         <thead>
                             <tr>
@@ -116,56 +124,53 @@
                         </tbody>
                     </table>
                 </div>
+    
                 <div class="form-section">
                     <div class="form-title-description">
-                        <h4 class="form-title">Calculate your BMI</h4>
-                        <p class="form-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                        <h4 class="form-title list-title">Calculate your BMI</h4>
+                        <p class="form-description shared-description ">We believe fitness should be accessible to everyone, everywhere,
+                            regardless of income or access to a gym.</p>
                     </div>
-                    <form action="#" class="form">
-                        <div class="input-field">
-                            <div class="first-row" >
-                                <div class="input-1" >
-                                    <input type="text" placeholder="Height/cm">
-                                </div> 
-                                <div class="input-2">
-                                    <input type="text" placeholder="Height/cm">
-                                </div> 
+    
+                    <form class="get">
+                        <div class="row">
+                            <div class="left">
+                                <input type="text" placeholder="Enter your name">
                             </div>
-                            <div class="first-row" >
-                                <div class="input-1" >
-                                    <input type="text" placeholder="Height/cm">
-                                </div> 
-                                <div class="input-2">
-                                    <input type="text" placeholder="Height/cm">
-                                </div> 
+                            <div class="left right">
+                                <input type="text" placeholder="Enter your name">
                             </div>
-                            <<div class="select">
-                                <select class="input-box">
-                                    <option>Select an activity factor</option>
+                        </div>
+                        <div class="row">
+                            <div class="left">
+                                <input type="text" placeholder="Enter your name">
+                            </div>
+                            <div class="left right">
+                                <div class="svg-icon-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon-1">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                      </svg>
+                                </div>
+                                <select>
+                                    <option>Sex</option>
                                 </select>
-                            </div> 
-
-
-                            <!-- <div class="input-middle" >
-                                    <div class="input-3">
-                                        <input class="input-box" type="text" placeholder="Weight/kg">
-                                </div> 
-                                <div class="input-4">
-                                    <select class="input-box">
-                                        <option>sex</option>
-                                        <option>male</option>
-                                        <option>female</option>
-                                    </select>
-                                </div> 
-                            </div> -->
-                            <!-- <div class="box" id="box-3"><input class="input-box" type="text" placeholder="Age"></div> -->
-                            <!-- <div class="box" id="box-4">
+                            </div>
+                        </div>
+                        
+                        <div class="full">
+                            <div class="svg-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                  </svg>
+                            </div>
+                            <select id="select">
+                                <option>Select an activity factor</option>
                                 
-                            </div> -->
-                           
+                            </select>
+                            
                         </div>
                         <div class="form-button">
-                            <button class="btn-primary">Calculate</button>
+                            <button class="btn-primary form-btn">Calculate</button>
                         </div>
                     </form>
                 </div>
